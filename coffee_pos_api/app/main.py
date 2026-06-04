@@ -10,3 +10,8 @@ def home():
     return {
         "message": "FastAPI running"
     }
+@app.get("/about")
+def about():
+    return {
+        "message": "About FastAPI"
+    }
